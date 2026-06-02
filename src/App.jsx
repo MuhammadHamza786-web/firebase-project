@@ -10,6 +10,8 @@ function App() {
   
   return (
     <div className="App">
+      <header className='header'>
+
       <Routes>
         <Route path="/" element={<Home/>}/>
         <Route path="/About" element={<About/>}/>  
@@ -18,6 +20,7 @@ function App() {
         <Route path="/Login" element={<Login/>}/>  
         
       </Routes>
+      </header>
     </div>
   );
 }

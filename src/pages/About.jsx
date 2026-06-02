@@ -7,13 +7,13 @@ const About = () => {
 
     <div>About Page</div>
 
-        <Link to={"/"}>Go TO Home Page</Link> 
+        <Link to={"/"}>Home</Link> 
          <br />
-        <Link to={"/Contact"}>Go To Contact Page</Link>
+        <Link to={"/Contact"}>Contact</Link>
         <br/>
-        <Link to={"/Sigin"}>Go To Sigin Page</Link>
+        <Link to={"/Sigin"}>Sigin</Link>
          <br />
-        <Link to={"/Login"}>Go To Login Page</Link>
+        <Link to={"/Login"}>Login</Link>
     </div>
   )
 }

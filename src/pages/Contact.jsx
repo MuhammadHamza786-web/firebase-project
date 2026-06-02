@@ -7,13 +7,13 @@ const Contact = () => {
     <div className='contact'>
 
     <div>Contact Page</div>
-        <Link to={"/"}>Go TO Home Page</Link> 
+        <Link to={"/"}>Home</Link> 
          <br />
-        <Link to={"/About"}>Go To About Page</Link>
+        <Link to={"/About"}>About</Link>
         <br/>
-        <Link to={"/Sigin"}>Go To Sigin Page</Link>
+        <Link to={"/Sigin"}>Sigin</Link>
          <br />
-        <Link to={"/Login"}>Go To Login Page</Link>
+        <Link to={"/Login"}>Login</Link>
     
     </div>
   )

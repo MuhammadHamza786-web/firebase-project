@@ -7,13 +7,13 @@ const login = () => {
 
     <div>login page</div>
     
-        <Link to={"/"}>Go TO Home Page</Link> 
+        <Link to={"/"}>Home</Link> 
          <br />
-        <Link to={"/Contact"}>Go To Contact Page</Link>
+        <Link to={"/Contact"}>Contact</Link>
         <br/>
-        <Link to={"/About"}>Go To About Page</Link>
+        <Link to={"/About"}>About </Link>
          <br />
-        <Link to={"/Sigin"}>Go To Sigin Page</Link>
+        <Link to={"/Sigin"}>Sigin</Link>
     </div>
   )
 }
