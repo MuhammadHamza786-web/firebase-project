@@ -1,6 +1,13 @@
 .header{
     display: flex;
-    justify-content: center;
+    justify-content: right;
     align-items: center;
-    
+    gap: 20px;
+    background-color: gray;
+    color: white;
+}
+.heading{
+    display: flex;
+    justify-content: center;
+
 }

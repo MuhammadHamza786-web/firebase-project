@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link } from 'react-router'
+import { Link } from 'react-router-dom'
 
 const About = () => {
   return (
@@ -7,13 +7,6 @@ const About = () => {
 
     <div>About Page</div>
 
-        <Link to={"/"}>Home</Link> 
-         <br />
-        <Link to={"/Contact"}>Contact</Link>
-        <br/>
-        <Link to={"/Sigin"}>Sigin</Link>
-         <br />
-        <Link to={"/Login"}>Login</Link>
     </div>
   )
 }

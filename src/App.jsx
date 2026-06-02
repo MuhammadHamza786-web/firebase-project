@@ -4,12 +4,14 @@ import Login from "./pages/Login";
 import Home from  "./pages/Home";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
+import Header from './pages/Header';
 import { Routes , Route } from 'react-router-dom';
 
 function App() {
   
   return (
     <div className="App">
+      <Header/>
       <header className='header'>
 
       <Routes>
