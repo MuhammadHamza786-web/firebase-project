@@ -69,40 +69,16 @@
 
 .btn-signup:hover{
     transform: translateY(-2px);
-}
 
-/* Pages */
-
-.home,
-.about,
-.contact,
-.login,
-.sigin{
-    height: calc(100vh - 80px);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 40px;
-    font-weight: bold;
-    color: #1f2937;
-}
-
-.home{
-    background: #f8fafc;
-}
-
-.about{
-    background: #eef2ff;
-}
-
-.contact{
-    background: #ecfeff;
 }
 
 .login{
-    background: #fef3c7;
-}
+    display: flex;
+    justify-content: center;
+     
 
+}
 .sigin{
-    background: #dcfce7;
+    display: flex;
+    justify-content: center;
 }
