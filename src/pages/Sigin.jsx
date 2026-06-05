@@ -1,6 +1,6 @@
 import React from 'react'
 import { getAuth, signInWithEmailAndPassword } from "firebase/auth";
-import { useEffect, useState } from 'react'
+import { useState } from 'react'
 import { Link } from 'react-router-dom'
 
 
@@ -25,7 +25,7 @@ const Sigin = () => {
     <div className='signin'>
 
       <h1>Sign In</h1>
-      <form action="">
+      <form onSubmit={SigninUser}>
         <label htmlFor="">
           Email:{""}
           <input type="email" placeholder='Enter Your Email' value={email} onChange={(e) => setEmail(e.target.value)} />
