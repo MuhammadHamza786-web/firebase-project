@@ -1,16 +1,16 @@
 import React from 'react'
 import { Link } from 'react-router'
 
-const Dashboard = () => {
+const dashboard = () => {
   return (
-    <div>Dashboard
 
-     <Link to="/Sigin">Go To Signin</Link>
-      <br />
-      <Link to="/Signup">Go To Signup</Link>
-    
-     </div>
+    <div>dashboard
+
+    <Link to={<Sigin/>}>Go to Sigin page</Link>
+    <Link to={<Signup/>}>Go to Sig page</Link>
+
+    </div>
   )
 }
 
-export default Dashboard
+export default dashboard
