@@ -20,9 +20,8 @@ console.log("error" , error)
 }
 
   return (
-    <div sign>
+    <div className='signup'>
 
-    <h1>Sign Up</h1>
     <form onSubmit={SignupUser}>
      <label>
       Email:
