@@ -1,6 +1,9 @@
 import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
 import { getAuth, createUserWithEmailAndPassword } from "firebase/auth";
+import app from "../Firebase.jsx";
+
+const auth = getAuth(app);
 
 const Signup = () => {
 const auth = getAuth();

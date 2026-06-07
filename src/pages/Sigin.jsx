@@ -2,6 +2,9 @@ import React from 'react'
 import { getAuth, signInWithEmailAndPassword } from "firebase/auth";
 import { useState } from 'react'
 import { Link } from 'react-router-dom'
+import app from "../Firebase.jsx";
+
+const auth = getAuth(app);
 
 
 const Sigin = () => {
