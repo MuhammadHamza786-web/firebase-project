@@ -35,7 +35,7 @@ const Sigin = () => {
         <br />
         <label>
           Password:{""}
-          <input type="password" placeholder='Enter Your Password'  value={password} onChange={(e)=>setPassword(e.target.value)}/>
+          <input type="text" placeholder='Enter Your Password'  value={password} onChange={(e)=>setPassword(e.target.value)}/>
         </label>
         <br />
         <button>Sign In</button>
